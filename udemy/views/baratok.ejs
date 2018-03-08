@@ -1,0 +1,13 @@
+<h1>baratok lista</h1>
+
+<% Baratok.forEach(function(barat){ %>
+    <li><%=barat%></li>
+<% }) %>
+
+<form action="/ujbarat" method="POST">
+    <input type = "text" name="ujbarat" placeholder= "szemelynev"> </input>
+    <!--<input type = "text" name="ujbarat2" placeholder= "utonev"> </input>-->
+    <button>Van egy uj barat</button>
+</form>
+
+  
